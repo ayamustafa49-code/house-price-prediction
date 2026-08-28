@@ -1,16 +1,34 @@
-# React + Vite
+#  House Price Prediction
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+An end-to-end machine learning web application that predicts house prices based on property features.
 
-Currently, two official plugins are available:
+##  Overview
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+This project trains a Random Forest model on real Indian house price data, serves it through a FastAPI backend, and provides a React frontend for user interaction.
 
-## React Compiler
+##  Tech Stack
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- **Frontend:** React, Vite, CSS3
+- **Backend:** FastAPI, Python 3.11
+- **ML:** Scikit-learn, Pandas, NumPy
+- **Tools:** Jupyter Notebook, Git, VS Code
 
-## Expanding the ESLint configuration
+##  Model Performance
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+| Metric | Value |
+|--------|-------|
+| R² Score | [] |
+| MAE | [] |
+| RMSE | [] |
+
+##  Getting Started
+
+### Prerequisites
+- Python 3.11+
+- Node.js 18+
+- npm 9+
+
+### 1. Clone the Repository
+```bash
+git clone https://github.com/SedraAlkholy/house-price-prediction.git
+cd house-price-prediction
